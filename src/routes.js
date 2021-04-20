@@ -13,4 +13,5 @@ routes.post('/counter/:type', authService.authorize, textController.counter); //
 routes.post('/reverse', authService.authorize, textController.reverse);
 routes.post('/apart', authService.authorize, textController.textApart);
 routes.post('/outshine', authService.authorize, textController.textOut);
+
 module.exports = routes
